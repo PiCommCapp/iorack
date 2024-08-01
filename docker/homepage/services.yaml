@@ -1,0 +1,48 @@
+---
+- Cameras:
+  - PTZ 1:
+    href: http://192.168.10.12
+    description: Camera Configuration
+    icon: mdi-cctv
+    ping: 192.168.10.12
+  - PTZ 2:
+    href: http://192.168.10.13
+    description: Camera Configuration
+    icon: mdi-cctv
+    ping: 192.168.10.12
+  - PTZ 3:
+    href: http://192.168.10.14
+    description: Camera Configuration
+    icon: mdi-cctv
+    ping: 192.168.10.12
+- Control:
+  - Companion Control:
+    href: http://192.168.10.3:8000/emulators
+    description: Virtual Control Interface
+    icon: mdi-lan
+  - Tricaster:
+    href: http://192.168.10.11
+    description: Live Panel
+    icon: mdi-video-switch
+    ping: 192.168.10.11
+  - M32 Mixer:
+    href: http://192.168.10.20
+    description: Audio Mixer
+    icon: mdi-tune-vertical
+    ping: 192.168.10.20
+- Configure:
+  - Companion Setup:
+    href: http://192.168.10.11:8000
+    description: Configure Bitfocus Companion
+    icon: mdi-lan
+    ping: 192.168.10.3
+  - Netgear Switch:
+    href: http://192.168.10.1
+    description: Network Core Switch
+    icon: mdi-lan
+    ping: 192.168.10.1
+  - Gateway:
+    href: http:192.168.10.2
+    description: System Internet Gateway
+    icon: mdi-lan
+    ping: 192.168.10.2
