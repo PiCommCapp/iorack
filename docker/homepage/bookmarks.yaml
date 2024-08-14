@@ -2,7 +2,7 @@
 - System:
   - Webpage:
     - abbr: !
-      href: ~/iorack/site/index.html
+      href: http://127.0.0.1:8089
 
 - Company:
   - PiComms:
@@ -17,3 +17,7 @@
   - Blackmagic Design:
     - abbr: BMD
       href: https://blackmagicdesign.com
+  - Birddog:
+    - abbr: BD
+      href: https://birddog.com
+      

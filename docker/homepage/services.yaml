@@ -1,23 +1,33 @@
 ---
-- Cameras:
+- Cameras and Interfaces:
   - PTZ 1:
-    href: http://192.168.10.12
+    href: http://192.168.10.31
     description: Camera Configuration
     icon: mdi-cctv
-    ping: 192.168.10.12
+    ping: 192.168.10.31
   - PTZ 2:
-    href: http://192.168.10.13
+    href: http://192.168.10.32
     description: Camera Configuration
     icon: mdi-cctv
-    ping: 192.168.10.12
+    ping: 192.168.10.32
   - PTZ 3:
-    href: http://192.168.10.14
+    href: http://192.168.10.33
     description: Camera Configuration
     icon: mdi-cctv
-    ping: 192.168.10.12
+    ping: 192.168.10.33
+  - Spark 1:
+    href: http://192.168.10.21
+    description: Spark IO Configuration
+    icon: mdi-video-input-hdmi
+    ping: 192.168.10.21
+  - Spark 2:
+    href: http://192.168.10.22
+    description: Spark IO Configuration
+    icon: mdi-video-input-hdmi
+    ping: 192.168.10.22
 - Control:
   - Companion Control:
-    href: http://192.168.10.3:8000/emulators
+    href: http://192.168.10.12:8000/emulators
     description: Virtual Control Interface
     icon: mdi-lan
   - Tricaster:
@@ -32,7 +42,7 @@
     ping: 192.168.10.20
 - Configure:
   - Companion Setup:
-    href: http://192.168.10.11:8000
+    href: http://192.168.10.12:8000
     description: Configure Bitfocus Companion
     icon: mdi-lan
     ping: 192.168.10.3
