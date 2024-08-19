@@ -26,6 +26,11 @@
       icon: mdi-video-input-hdmi
       ping: 192.168.10.22
 - Control:
+  -  PTZ Keyboard:
+      href: http://192.168.10.13
+      description: PTZ Controller
+      ping: 192.168.10.13
+      icon: mdi-lan
   - Companion Control:
       href: http://192.168.10.12:8000/emulators
       description: Virtual Control Interface
