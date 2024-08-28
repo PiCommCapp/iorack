@@ -1,4 +1,4 @@
-# Tricaster User Guide
+# Tricaster Mini 4K User Guide
 
 ## General Information
 
@@ -6,7 +6,7 @@ A homepage can be found on the engineering computer, or any computer on the IO R
 
 ## Kit Contents
 
-__Tricaster Mini Case__
+### Tricaster Mini Case
 
 - 1x Tricaster Mini 4K
 - 1x Tricaster Mini Control Panel
@@ -18,26 +18,43 @@ __Tricaster Mini Case__
 
 ## Equipment
 
-### Tricaster
+### Tricaster Mini 4K
+
+| Information     | Website                                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------------------------------|
+| Product website | [vizrt.com/products/tricaster/tricaster-mini-4k/](https://www.vizrt.com/products/tricaster/tricaster-mini-4k/) |
+| Documents       | [docs.vizrt.com](https://docs.vizrt.com/)                                                                      |
 
 #### Physical Connections
 
-__PHOTO - Back Panel__
+##### Front Panel
+
+![Tricaster Mini 4k Front Panel](./photos/tri_front.png)
+
+- Line level audio inputs and outputs.
+- Monitoring headphones output.
+- Microphone input
+
+##### Rear Panel 
+
+
 
 - Displays should always be connected via one of the four Mini Display-port connectors.
 - The principle network should be connected to the blue network port.
   - additional network ports can be connected to expand network bandwidth to device. **Not generally needed.**
 - Keyboard, mouse, and control surface connect via USB.
 
-__PHOTO - Front Panel__
-
-- Line level audio inputs and outputs.
-- Monitoring headphones output.
-- 
-
 #### Show Creation & Configuration
 
 #### Operation
+
+##### Mini Controller Layout
+
+##### Switching
+
+###### Transistions
+
+
 
 ### Engineering Computer
 
@@ -49,7 +66,38 @@ The PC also hosts the [system webpage](http://192.168.10.12:3000).
 
 ### Spark IO Devices
 
+- Device should be connected via the "NDI/PoE" port to the network
+  - Device can be powered via USB-C is needed
+- Navigate 
+
 ### PTZ Controller
+
+#### Installation
+
+![PTZ Rear Panel](./photos/ptz_keyboard_rear.png)
+
+- Connect Keyboard to network using the "LAN/PoE" RJ45 connector on the back of the device. (A)
+- Power can be provided by PoE, or by using a power supply. (B)
+
+#### Operation
+
+![PTZ Keyboard](./photos/ptz_keyboard_key.png)
+
+| Command       | Keypress                                                   |
+|---------------|------------------------------------------------------------|
+| Select Camera | Type Camera NUM [0-9] then CAM (D)                         |
+| Record Preset | Type Position NUM [0-9] then hold PRESET (B) for 3 seconds |
+| Recall Preset | Type Position NUM [0-9] then CALL (C)                      |
+| F1*           | Select Camera 1                                            |
+| F2*           | Select Camera 2                                            |
+| F3*           | Select Camera 3                                            |
+| F4*           | Home Position                                              |
+| F5*           | Calibrate Pan and Tilt                                     |
+| F6*           | Power Cycle Camera                                         |
+
+*- In Pi Comms 3/1 Camera Setup
+
+#### Configuration
 
 ### Birddog PTZ Cameras
 

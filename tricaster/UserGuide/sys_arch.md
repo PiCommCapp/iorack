@@ -13,6 +13,7 @@ __Schema__
 | 192.168.10.21 - 30   | NDI Interfaces    |
 | 192.168.10.31 - 40   | NDI Cameras       |
 | 192.168.10.100 - 200 | DHCP Pool         |
+| 192.168.10.201 - 254 | Services          |
 
 __Static Address Table__
 
